@@ -1,6 +1,7 @@
 body{
   color: rgb(255, 255, 255);
   background-color:black;
+  font-family: 'Zen Dots', cursive;
 }
 
 .fondoClaro{
@@ -9,6 +10,11 @@ body{
 }
 
 .fondoNegro {
-  color: rgb(98, 243, 62);
+  color: white ;
   background-color: black;
+}
+
+.fondoBlanco{
+  color: black;
+  background-color: whitesmoke;
 }
