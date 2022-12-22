@@ -1,0 +1,8 @@
+[
+    {"id":1, "nombre": "Pc Gamer MSI GF63", "descripcion":"Msi GF63 THIN Notebook Gamer, Memoria RAM: 8 GB DDR4,  NVIDIA GEFORCE GTX 1650, 4 GB GDDR5.",
+    "imagen":"https://pcstore.com.uy/wp-content/uploads/2021/08/1049-510x510.jpg", 
+    "precio":1400, "stock":10, "categoria": "gamers"},
+    {"id":2, "nombre": "Pc Gamer Asus ROG Strix SCAR", "descripcion":"Asus ROG Strix SCAR Notebook gamer, 32GB DDR4 3200Mhz, NVIDIA GeForce RTX 2070 Super con 8GB GDDR6", 
+    "imagen":"https://pcstore.com.uy/wp-content/uploads/2021/03/1-11.jpg", 
+    "precio":4059, "stock":8, "categoria": "gamers"}
+]
