@@ -1,7 +1,18 @@
 import React from "react";
+import Item from "./Item";
 
-const itemList = () => {
+const ItemList = ({items}) => {
     return (
-        <h1>itemList</h1>
+        <div className="row">
+            {
+                items.map(item =>
+                    <div className="col-md-4" key={item.id}>
+                        <Item item={item} />
+                    </div>
+                )
+            }               
+        </div>       
     )
 }
+
+export default ItemList;

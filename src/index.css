@@ -3,6 +3,9 @@ body{
   background-color:black;
   font-family: 'Zen Dots', cursive;
 }
+.fondoCard {
+  background-color:black;
+}
 
 .fondoClaro{
   color: black;

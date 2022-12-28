@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
                 <div className="col-md-6">
                     <nav className="navbar navbar-dark navbar-expand-lg">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="\"><img src={"img/images.png"} alt={"PC Store"} width={190} /></a>
+                            <Link className="navbar-brand" to={"/"}><img src={"img/images.png"} alt={"PC Store"} width={190} /></Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -16,16 +17,16 @@ const NavBar = () => {
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <a className="nav-link"  href="/notebooks">Notebooks</a>
+                                        <NavLink className="nav-link"  to={"/category/notebooks"}>Notebooks</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/armaTuPc">Gamers</a>
+                                        <NavLink className="nav-link" to={"/category/gamers"}>Gamers</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/componentes">Componentes</a>
+                                        <NavLink className="nav-link" to={"/category/componentes"}>Componentes</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/contacto">Contacto</a>
+                                        <NavLink className="nav-link" to={"/category/contacto"}>Contacto</NavLink>
                                     </li>
                                 </ul>
                             </div>
